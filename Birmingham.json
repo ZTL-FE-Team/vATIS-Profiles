@@ -2,6 +2,8 @@
   "version": 1,
   "name": "Birmingham",
   "id": "b7eb95db-dc2e-492f-a276-262b8eab014c",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Birmingham.json",
+  "updateSerial": 2024122201, 
   "stations": [
     {
       "id": "45793b81-d502-4f5a-8343-8b4a0e6ec8df",
