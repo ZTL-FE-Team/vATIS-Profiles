@@ -2,7 +2,7 @@
   "version": 1,
   "name": "Charlotte",
   "id": "3d6e1a49-df92-411e-ba6a-c80823ea5f9d",
-  "updateUrl": "https://raw.githubusercontent.com/macnjlm41/ZTL-ARTCC-vATIS-Profiles/refs/heads/main/Charlotte.json",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Charlotte.json",
   "updateSerial": 2024121602,
   "stations": [
     {
