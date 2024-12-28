@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Atlanta",
-  "id": "9777ce03-4434-45f7-9c5f-90036cdb8e2d",
+  "id": "7867d7ca-9f8d-4781-b6da-75b2b86e7669",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
   "updateSerial": 2024122202,
   "stations": [
@@ -701,6 +701,11 @@
           "variableName": "ATL",
           "text": "ATL",
           "voice": "ATLANTA AIRPORT"
+        },
+        {
+          "variableName": "NM",
+          "text": "NM",
+          "voice": "NAUTICAL MILES"
         }
       ],
       "airportConditionDefinitions": [],
@@ -739,6 +744,11 @@
           "text": "PREDEPARTURE CLRNC DOES NOT REQUIRE READBACK",
           "ordinal": 7,
           "enabled": false
+        },
+        {
+          "text": "TWY ROMEO 10 CLSD. RWY 8L LAHSO LIGHTS OTS. RWY 9L ROLLOUT RVR OTS. RWY 9R ALSF 2 NOW SSALR. CRANE .5@NM NNW 180 FT AGL.",
+          "ordinal": 8,
+          "enabled": true
         }
       ]
     },
@@ -1425,6 +1435,11 @@
           "variableName": "TWY_M2",
           "text": "TWY M2",
           "voice": "TAXIWAY MIKE TWO"
+        },
+        {
+          "variableName": "NM",
+          "text": "NM",
+          "voice": "NAUTICAL MILES"
         }
       ],
       "airportConditionDefinitions": [],
@@ -1463,6 +1478,11 @@
           "text": "PREDEPARTURE CLRNC DOES NOT REQUIRE READBACK",
           "ordinal": 7,
           "enabled": false
+        },
+        {
+          "text": "TWY ROMEO 10 CLSD. RWY 8L LAHSO LIGHTS OTS. RWY 9L ROLLOUT RVR OTS. RWY 9R ALSF 2 NOW SSALR. CRANE .5@NM NNW 180 FT AGL.",
+          "ordinal": 8,
+          "enabled": true
         }
       ]
     },
