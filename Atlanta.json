@@ -3,7 +3,7 @@
   "name": "Atlanta",
   "id": "7867d7ca-9f8d-4781-b6da-75b2b86e7669",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
-  "updateSerial": 2024127201,
+  "updateSerial": 2025010201,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
@@ -216,6 +216,12 @@
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
@@ -746,7 +752,7 @@
           "enabled": false
         },
         {
-          "text": "TWY ROMEO 10 CLSD. RWY 8L LAHSO LIGHTS OTS. RWY 9L ROLLOUT RVR OTS. RWY 9R ALSF 2 NOW SSALR. CRANE .5@NM NNW 180 FT AGL.",
+          "text": "TWY ROMEO 10 CLSD. RWY 26R LAND AND HOLD SHORT LIGHTS OTS. RWY 27R TOUCHDOWN RVR OTS. RWY 27L AND RWY 28 ALS SSALR MODE ONLY. CRANE .5@NM NNW 180 FT AGL.",
           "ordinal": 8,
           "enabled": true
         }
@@ -963,6 +969,12 @@
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
@@ -1480,7 +1492,7 @@
           "enabled": false
         },
         {
-          "text": "TWY ROMEO 10 CLSD. RWY 8L LAHSO LIGHTS OTS. RWY 9L ROLLOUT RVR OTS. RWY 9R ALSF 2 NOW SSALR. CRANE .5@NM NNW 180 FT AGL.",
+          "text": "TWY ROMEO 10 CLSD. RWY 26R LAND AND HOLD SHORT LIGHTS OTS. RWY 27R TOUCHDOWN RVR OTS. RWY 27L AND RWY 28 ALS SSALR MODE ONLY. CRANE .5@NM NNW 180 FT AGL.",
           "ordinal": 8,
           "enabled": true
         }
@@ -1697,6 +1709,12 @@
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
@@ -2070,6 +2088,12 @@
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
@@ -2452,6 +2476,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -2822,6 +2852,12 @@
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
