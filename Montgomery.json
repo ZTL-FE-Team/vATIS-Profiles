@@ -2,6 +2,10 @@
   "version": 1,
   "name": "Montgomery",
   "id": "4c02990c-f718-4c17-a2a5-1653deec4705",
+{
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Montgomery.json",
+  "updateSerial": 2025011501,
+}
   "stations": [
     {
       "id": "f52b6e03-97da-42a1-9d19-496fc73f3b94",
