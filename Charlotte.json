@@ -1,9 +1,9 @@
 {
   "version": 1,
   "name": "Charlotte",
-  "id": "3d6e1a49-df92-411e-ba6a-c80823ea5f9d",
+  "id": "421c01d0-373d-4ef3-b996-63bd347d56ea",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Charlotte.json",
-  "updateSerial": 2024121602,
+  "updateSerial": 2025011501,
   "stations": [
     {
       "id": "6da7aa8b-33d2-47c0-8202-7fd9cf3f4028",
@@ -12,7 +12,7 @@
       "atisType": "Arrival",
       "codeRange": {
         "low": "A",
-        "high": "Z"
+        "high": "M"
       },
       "atisFormat": {
         "observationTime": {
@@ -218,6 +218,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -319,7 +325,7 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "Default"
       },
       "presets": [
         {
@@ -610,7 +616,7 @@
       "name": "Charlotte",
       "atisType": "Departure",
       "codeRange": {
-        "low": "A",
+        "low": "N",
         "high": "Z"
       },
       "atisFormat": {
@@ -817,6 +823,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -918,7 +930,7 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Male"
+        "voice": "Default"
       },
       "presets": [
         {
@@ -1365,6 +1377,12 @@
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
@@ -1721,6 +1739,12 @@
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
