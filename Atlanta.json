@@ -3,7 +3,7 @@
   "name": "Atlanta",
   "id": "7867d7ca-9f8d-4781-b6da-75b2b86e7669",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
-  "updateSerial": 2025010201,
+  "updateSerial": 2025017201,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
@@ -309,6 +309,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -321,7 +327,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 119650000,
       "idsEndpoint": "",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -752,7 +757,7 @@
           "enabled": false
         },
         {
-          "text": "TWY ROMEO 10 CLSD. RWY 26R LAND AND HOLD SHORT LIGHTS OTS. RWY 27R TOUCHDOWN RVR OTS. RWY 27L AND RWY 28 ALS SSALR MODE ONLY. CRANE .5@NM NNW 180 FT AGL.",
+          "text": "TWY R10 CLSD. RUNWAY 9L ROLLOUT RVR OUT OF SERVICE. RUNWAY 9R SIMPLIFIED SHORT APPROACH LIGHTS OUT OF SERVICE. RWY 8L LAND AND HOLD SHORT LIGHTS OTS. CRANE .5@NM NNW 180 FT AGL.",
           "ordinal": 8,
           "enabled": true
         }
@@ -1062,6 +1067,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -1074,7 +1085,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 125550000,
       "idsEndpoint": "",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -1492,7 +1502,7 @@
           "enabled": false
         },
         {
-          "text": "TWY ROMEO 10 CLSD. RWY 26R LAND AND HOLD SHORT LIGHTS OTS. RWY 27R TOUCHDOWN RVR OTS. RWY 27L AND RWY 28 ALS SSALR MODE ONLY. CRANE .5@NM NNW 180 FT AGL.",
+          "text": "TWY R10 CLSD. RUNWAY 9L ROLLOUT RVR OUT OF SERVICE. RUNWAY 9R SIMPLIFIED SHORT APPROACH LIGHTS OUT OF SERVICE. RWY 8L LAND AND HOLD SHORT LIGHTS OTS. CRANE .5@NM NNW 180 FT AGL.",
           "ordinal": 8,
           "enabled": true
         }
@@ -1802,6 +1812,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -1814,7 +1830,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 120175000,
       "idsEndpoint": "",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -2181,6 +2196,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -2193,7 +2214,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 128125000,
       "idsEndpoint": "",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -2567,6 +2587,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -2579,7 +2605,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 128400000,
       "idsEndpoint": "",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -2945,6 +2970,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -2957,7 +2988,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 132275000,
       "idsEndpoint": "",
-      "useNotamPrefix": true,
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
