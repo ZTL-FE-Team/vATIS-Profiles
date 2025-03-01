@@ -1858,7 +1858,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 121150000,
-      "idsEndpoint": "",
+      "idsEndpoint": "https://api.simtraffic.net/vatis",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2116,34 +2116,14 @@
       "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
-          "text": "ON RECEIPT OF YOUR ATC CLEARANCE READ BACK ONLY SQUAWK CODE",
+          "text": "PUSH AND START AT YOUR OWN RISK",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "PRE-DEPARTURE CLEARANCES DO NOT REQUIRE A READBACK",
+          "text": "RAMP OPERATIONS IN EFFECT, CONTACT 131.6 PRIOR TO ENTRY.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "INCLUDE CALLSIGN IN ALL ATC READBACKS",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "PUSH AND START AT YOUR OWN RISK",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "CALL FOR TAXI AT EDGE OF RAMP",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "WIND SHEAR ADVISORIES IN EFFECT",
-          "ordinal": 8,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -4000,7 +3980,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 132100000,
-      "idsEndpoint": "",
+      "idsEndpoint": "https://api.simtraffic.net/vatis",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -4236,7 +4216,13 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "RAMP OPERATIONS IN EFFECT, CONTACT 130.075 FOR PUSHBACK.",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     },
     {
       "id": "f0849ad6-b5a9-4801-8b2c-ed9fa2aa4621",
