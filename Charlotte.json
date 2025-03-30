@@ -1,9 +1,8 @@
 {
-  "version": 3,
   "name": "Charlotte",
   "id": "421c01d0-373d-4ef3-b996-63bd347d56ea",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Charlotte.json",
-  "updateSerial": 2025022004,
+  "updateSerial": 2025022005,
   "stations": [
     {
       "id": "6da7aa8b-33d2-47c0-8202-7fd9cf3f4028",
@@ -2197,6 +2196,11 @@
           "text": "PUSH AND START AT YOUR OWN RISK",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "RWY 5/23 IS NOW TWY J.",
+          "ordinal": 2,
+          "enabled": false
         }
       ]
     },
@@ -4367,7 +4371,13 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "RWY 5/23 IS NOW TWY J.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "f0849ad6-b5a9-4801-8b2c-ed9fa2aa4621",
@@ -8301,5 +8311,6 @@
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 4
 }
