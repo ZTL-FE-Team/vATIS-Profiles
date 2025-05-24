@@ -1,6 +1,8 @@
 {
   "name": "Greensboro",
   "id": "1e4f84bb-72f0-4c46-b0f8-4308fe0c281f",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Greensboro.json",
+  "updateSerial": 2024121601,
   "stations": [
     {
       "id": "17f835c3-66b6-47ac-8c7c-c7d7dfe1fcba",
