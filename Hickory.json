@@ -1,6 +1,8 @@
 {
   "name": "Hickory",
   "id": "8dcc8304-2be3-40eb-9984-82439413123e",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Hickory.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "8f7d2dba-0b60-4550-bafc-d04bc6304e05",
