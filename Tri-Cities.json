@@ -1,12 +1,12 @@
 {
-  "name": "Asheville",
-  "id": "a117dcf8-cced-42a8-8081-e3319cdc1b17",
+  "name": "Tri-Cities",
+  "id": "1eee6f90-56a6-4ac8-b44d-24381f82cdf2",
   "stations": [
     {
-      "id": "d47ac601-adc1-4e74-a468-a2fa4878958d",
+      "id": "067fa5cf-961b-4cda-ba73-a0c889878d4f",
       "ordinal": 0,
-      "identifier": "KAVL",
-      "name": "Asheville",
+      "identifier": "KTRI",
+      "name": "Tri-Cities",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -15,7 +15,7 @@
       "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
-            52
+            53
           ],
           "template": {
             "text": "{time}Z",
@@ -1959,7 +1959,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 120200000,
+      "frequency": 118250000,
+      "idsEndpoint": "",
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": false,
@@ -1968,60 +1969,80 @@
       },
       "presets": [
         {
-          "id": "7f0feea1-4000-498c-9e1b-59a9259b7caa",
-          "name": "VIS 17",
-          "airportConditions": "VISUAL APCH RWY 17 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+          "id": "d33cf13f-2a3e-44b3-8707-017265c2ce65",
+          "name": "VIS 5",
+          "airportConditions": "VISUAL APCH RWY 5 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "261b6b51-97ab-47f5-a7d6-41760536a53a",
-          "name": "VIS 35",
-          "airportConditions": "VISUAL APCH RWY 35 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+          "id": "14ab51cb-7586-4a4d-8a5f-7ebbc1053807",
+          "name": "VIS 23",
+          "airportConditions": "VISUAL APCH RWY 23 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "859ab76b-aabc-4262-a46d-f030a929eca4",
-          "name": "ILS 17",
-          "airportConditions": "ILS APCH RWY 17 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+          "id": "4c1d3e5d-c59b-48ac-9b7f-f07415515c0d",
+          "name": "VIS 5, 9",
+          "airportConditions": "VISUAL APCH RWY 5, RWY 9 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "0d9288c5-9468-4ddc-b35f-3c3a73bc0230",
-          "name": "ILS 35",
-          "airportConditions": "ILS APCH RWY 35 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+          "id": "60fbebbd-4af2-4935-bf0f-331aa3aa3685",
+          "name": "VIS 23, 27",
+          "airportConditions": "VISUAL APCH RWY 23, RWY 27 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "ffe24795-62bb-4753-996a-9d2fc7b53f52",
-          "name": "RNAV 17",
-          "airportConditions": "RNAV APCH RWY 17 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+          "id": "b8e434c7-baf8-49f1-9057-fec5eb8a6a76",
+          "name": "ILS 5",
+          "airportConditions": "ILS APCH RWY 5 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "c2ae1b5a-974c-4488-b001-9bee16766c07",
-          "name": "RNAV 35",
-          "airportConditions": "RNAV APCH RWY 35 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+          "id": "4c0be410-6e40-4372-84db-6326e0814c43",
+          "name": "ILS 23",
+          "airportConditions": "ILS APCH RWY 23 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "55218904-a12d-4a46-afc3-620543e680e7",
+          "name": "RNAV 5",
+          "airportConditions": "RNAV APCH RWY 5 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e0480e97-b16b-4428-bc40-de8d01ad03c5",
+          "name": "RNAV 23",
+          "airportConditions": "RNAV APCH RWY 23 IN USE.",
+          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECITON OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2029,55 +2050,8 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [
-        {
-          "text": "ILS APCHS IN USE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "VIS APCHS IN USE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "RNAV APCHS IN USE.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "INCLUDE CALLSIGN IN ALL ATC READBACKS",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PUSH AND START AT YOUR DESCRESION",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CALL FOR TAXI AT END OF RAMP",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "HAZARDOUS WEATHER INFORMATION FOR ASHEVILLE AREA AVAILABLE ON HIWAS OR FLIGHT SERVICE FREQUENCIES.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "BAA ARE IN EFCT.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "LLWS ADVZYS ARE IN EFCT.",
-          "ordinal": 6,
-          "enabled": false
-        }
-      ]
+      "airportConditionDefinitions": [],
+      "notamDefinitions": []
     }
   ],
   "version": 4

@@ -1,12 +1,12 @@
 {
-  "name": "Asheville",
-  "id": "a117dcf8-cced-42a8-8081-e3319cdc1b17",
+  "name": "Hickory",
+  "id": "8dcc8304-2be3-40eb-9984-82439413123e",
   "stations": [
     {
-      "id": "d47ac601-adc1-4e74-a468-a2fa4878958d",
+      "id": "8f7d2dba-0b60-4550-bafc-d04bc6304e05",
       "ordinal": 0,
-      "identifier": "KAVL",
-      "name": "Asheville",
+      "identifier": "KHKY",
+      "name": "Hickory",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -15,7 +15,7 @@
       "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
-            52
+            53
           ],
           "template": {
             "text": "{time}Z",
@@ -1901,8 +1901,8 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "text": "{temp} CELSIUS",
+            "voice": "TEMPERATURE {temp} CELSIUS"
           }
         },
         "dewpoint": {
@@ -1952,132 +1952,34 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "text": "REMARKS: DENSITY ALTITUDE MISSING.",
+            "voice": "REMARKS: DENSITY ALTITUDE MISSING."
           }
         }
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 120200000,
+      "frequency": 118325000,
+      "idsEndpoint": "",
       "useDecimalTerminology": false,
       "atisVoice": {
-        "useTextToSpeech": false,
-        "voice": "Default",
+        "useTextToSpeech": true,
+        "voice": "US Male",
         "speechRate": 180
       },
       "presets": [
         {
-          "id": "7f0feea1-4000-498c-9e1b-59a9259b7caa",
-          "name": "VIS 17",
-          "airportConditions": "VISUAL APCH RWY 17 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "261b6b51-97ab-47f5-a7d6-41760536a53a",
-          "name": "VIS 35",
-          "airportConditions": "VISUAL APCH RWY 35 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "859ab76b-aabc-4262-a46d-f030a929eca4",
-          "name": "ILS 17",
-          "airportConditions": "ILS APCH RWY 17 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "0d9288c5-9468-4ddc-b35f-3c3a73bc0230",
-          "name": "ILS 35",
-          "airportConditions": "ILS APCH RWY 35 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "ffe24795-62bb-4753-996a-9d2fc7b53f52",
-          "name": "RNAV 17",
-          "airportConditions": "RNAV APCH RWY 17 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "c2ae1b5a-974c-4488-b001-9bee16766c07",
-          "name": "RNAV 35",
-          "airportConditions": "RNAV APCH RWY 35 IN USE.",
-          "notams": "READ BACK ALL RUNWAY HOLD SHORT INSTRUCTIONS, VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "id": "a4cde948-76cb-44e6-b032-99d8e69a6d40",
+          "name": "ASOS",
+          "template": "[FACILITY] AUTOMATED WEATHER OBSERVATION [OBS_TIME]. [FULL_WX_STRING].",
           "externalGenerator": {
             "enabled": false
           }
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [
-        {
-          "text": "ILS APCHS IN USE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "VIS APCHS IN USE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "RNAV APCHS IN USE.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "INCLUDE CALLSIGN IN ALL ATC READBACKS",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PUSH AND START AT YOUR DESCRESION",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CALL FOR TAXI AT END OF RAMP",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "HAZARDOUS WEATHER INFORMATION FOR ASHEVILLE AREA AVAILABLE ON HIWAS OR FLIGHT SERVICE FREQUENCIES.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "BAA ARE IN EFCT.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "LLWS ADVZYS ARE IN EFCT.",
-          "ordinal": 6,
-          "enabled": false
-        }
-      ]
+      "airportConditionDefinitions": [],
+      "notamDefinitions": []
     }
   ],
   "version": 4
