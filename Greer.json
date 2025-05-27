@@ -1,6 +1,8 @@
 {
   "name": "Greer",
   "id": "e9601310-526d-4ac4-b532-20693e985a47",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Greer.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "61706e69-7e66-4b92-a407-d7cb6b8eb5ba",
