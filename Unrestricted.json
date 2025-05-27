@@ -1,7 +1,7 @@
 {
   "name": "Unrestricted",
   "id": "4c741d24-f76f-4b4a-8ba2-2d4f00e55ee7",
-  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Unrestricted%20Fields.json",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Unrestricted.json",
   "updateSerial": 2025022006,
   "stations": [
     {
