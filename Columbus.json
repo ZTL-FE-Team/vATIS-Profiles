@@ -1,6 +1,8 @@
 {
   "name": "Columbus",
   "id": "df0ba690-092d-4796-87a8-8534ac1e2235",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Columbus.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "63bc2702-622e-4d21-8351-27200c5aeedb",
