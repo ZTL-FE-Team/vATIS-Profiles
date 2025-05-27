@@ -1,6 +1,8 @@
 {
   "name": "Augusta",
   "id": "d719aaa7-b36d-49e0-a6a8-70170c4617d5",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Augusta.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "f06c2de7-295e-4082-baf7-0a322f4871b6",
