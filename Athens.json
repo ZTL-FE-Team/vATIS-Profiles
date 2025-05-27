@@ -1,6 +1,8 @@
 {
   "name": "Athens",
   "id": "6ebc715c-8b0b-469c-9767-145141307ee6",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Athens.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "765714d1-c09f-4722-ad0c-7af9ee0402fe",
