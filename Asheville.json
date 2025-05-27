@@ -1,6 +1,8 @@
 {
   "name": "Asheville",
   "id": "a117dcf8-cced-42a8-8081-e3319cdc1b17",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Asheville.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "d47ac601-adc1-4e74-a468-a2fa4878958d",
