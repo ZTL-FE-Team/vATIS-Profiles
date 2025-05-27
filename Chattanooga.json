@@ -1,6 +1,8 @@
 {
   "name": "Chattanooga",
   "id": "7c131ed3-9a9b-4ab2-9c55-c258c1fd36e7",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Chattanooga.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "02c2231c-5857-4e53-b067-8c88842ccc14",
