@@ -1,8 +1,8 @@
 {
   "name": "Greensboro",
-  "id": "1e4f84bb-72f0-4c46-b0f8-4308fe0c281f",
+  "id": "27c02bb1-454b-4d2f-865f-f69bb18d028b",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Greensboro.json",
-  "updateSerial": 2024121601,
+  "updateSerial": 2024121602,
   "stations": [
     {
       "id": "17f835c3-66b6-47ac-8c7c-c7d7dfe1fcba",
@@ -85,6 +85,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -1830,6 +1836,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -1910,6 +1922,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -1975,7 +2003,7 @@
         {
           "id": "58f936a7-671f-45c1-8c0b-3d01488413f9",
           "name": "ILS 5",
-          "airportConditions": "ILS RWY 5R APCH IN USE.",
+          "airportConditions": "ILS RWY 5R, 5L APCH IN USE.",
           "notams": "RWY 14, 32 CLSD. RWY 23L SSALR ALS OTS. READBACK ALL RWY HOLD SHORT READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONTACT GND ON 119.1 FOR CLNC AND TAXI INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2180,6 +2208,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -3924,6 +3958,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -4003,6 +4043,22 @@
             "text": "A{altimeter} ({altimeter|text})",
             "voice": "ALTIMETER {altimeter}"
           }
+        },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
         },
         "transitionLevel": {
           "values": [],
