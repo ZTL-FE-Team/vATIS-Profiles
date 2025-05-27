@@ -1,6 +1,8 @@
 {
   "name": "Macon",
   "id": "eeb7ba97-e1de-48d2-8fa8-a714ada0df39",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Macon.json",
+  "updateSerial": 2025017203,
   "stations": [
     {
       "id": "6c4ceb59-b067-4f91-9cee-918a92abdefc",
