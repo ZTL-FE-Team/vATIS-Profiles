@@ -1,6 +1,8 @@
 {
   "name": "Tri-Cities",
   "id": "1eee6f90-56a6-4ac8-b44d-24381f82cdf2",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Tri-Cities.json",
+  "updateSerial": 2025011502,
   "stations": [
     {
       "id": "067fa5cf-961b-4cda-ba73-a0c889878d4f",
