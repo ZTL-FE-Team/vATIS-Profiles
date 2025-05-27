@@ -1,6 +1,8 @@
 {
   "name": "ZTL",
   "id": "d0047245-2799-4a9a-8eee-91835bb232aa",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/ZTL.json",
+  "updateSerial": 2025011502,
   "stations": [
     {
       "id": "1ae27e0e-cffd-4cf3-bf70-48971c32a6fb",
