@@ -1,6 +1,8 @@
 {
   "name": "Atlanta",
   "id": "1dc7f315-dab0-45c5-988a-dd389017e6b1",
+  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
+  "updateSerial": 2025010202,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
