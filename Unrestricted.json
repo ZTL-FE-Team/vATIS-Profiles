@@ -1,8 +1,6 @@
 {
   "name": "Unrestricted",
   "id": "4c741d24-f76f-4b4a-8ba2-2d4f00e55ee7",
-  "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Unrestricted.json",
-  "updateSerial": 2025022006,
   "stations": [
     {
       "id": "e1164363-b6b6-461e-a888-a93ee54aed9b",
@@ -26298,7 +26296,7 @@
         {
           "id": "7c67849a-6ee5-48c9-96e1-fe4e9f7eea0b",
           "name": "VIS 23",
-          "airportConditions": "VIS IN USE RWY 23L, RWY 23R IN USE.",
+          "airportConditions": "VIS APCH RWY 23R, RWY 23L IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26308,7 +26306,7 @@
         {
           "id": "7a442b96-ebc4-4b6a-ba75-54644fcab8b1",
           "name": "ILS 23",
-          "airportConditions": "SIMUL ILS RWY 23L, 23R APCH IN USE.",
+          "airportConditions": "ILS APCH RWY 23R, 23L IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26318,8 +26316,8 @@
         {
           "id": "70c3f8c3-f99f-4766-847c-c96372d93d6a",
           "name": "VIS 5",
-          "airportConditions": "VIS RWY 5L, 5R APCH IN USE. ",
-          "notams": "READBACK ALL RWY HOLD SHORT READBACK ALL RWY HOLD SHORT INSTRUCTIONS. ",
+          "airportConditions": "VIS APCH RWY 5R, 5L IN USE.",
+          "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -26328,37 +26326,7 @@
         {
           "id": "58f936a7-671f-45c1-8c0b-3d01488413f9",
           "name": "ILS 5",
-          "airportConditions": "ILS RWY 5R APCH IN USE.",
-          "notams": "RWY 14, 32 CLSD. RWY 23L SSALR ALS OTS. READBACK ALL RWY HOLD SHORT READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONTACT GND ON 119.1 FOR CLNC AND TAXI INSTRUCTIONS.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "0fac426a-919f-4b31-94ba-781d1600dcba",
-          "name": "VIS 23",
-          "airportConditions": "SIMUL VIS RWY 23L, RWY 23R APCH IN USE.",
-          "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "1db7908d-ac79-481b-9f57-520425b9c7f2",
-          "name": "VIS 23",
-          "airportConditions": "SIMUL VIS RWY 23L, RWY 23R APCH IN USE.",
-          "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "c833cbfe-dc0b-46b9-9897-fedd75dac32f",
-          "name": "VIS 23",
-          "airportConditions": "SIMUL VIS RWY 23L, RWY 23R APCH IN USE.",
+          "airportConditions": "ILS APCH RWY 5R, 5L IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26368,7 +26336,7 @@
         {
           "id": "0f451745-ab09-42ae-b5a1-9408a6e37093",
           "name": "VIS 32",
-          "airportConditions": "VIS RWY 32 APCH IN USE",
+          "airportConditions": "VIS APCH RWY 32 IN USE",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26378,7 +26346,7 @@
         {
           "id": "d18ded17-f760-4540-88cf-0c88faa80e16",
           "name": "ILS 32",
-          "airportConditions": "ILS Y RWY 32 APCH IN USE.",
+          "airportConditions": "ILS Y APCH RWY 32 IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26388,7 +26356,7 @@
         {
           "id": "fa3c478d-2e63-413b-ba0a-4e4f560a8794",
           "name": "VIS 14",
-          "airportConditions": "VIS RWY 14 APCH IN USE.",
+          "airportConditions": "VIS APCH RWY 14 IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
