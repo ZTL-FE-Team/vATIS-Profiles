@@ -1,8 +1,8 @@
 {
   "name": "Charlotte",
-  "id": "421c01d0-373d-4ef3-b996-63bd347d56ea",
+  "id": "c3c2a33f-0576-44d1-82e9-909a595afb44",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Charlotte.json",
-  "updateSerial": 2025022007,
+  "updateSerial": 2025073100,
   "stations": [
     {
       "id": "6da7aa8b-33d2-47c0-8202-7fd9cf3f4028",
@@ -85,6 +85,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -1830,6 +1836,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -1910,6 +1922,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -1920,7 +1948,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIRMEN: {notams}"
+            "voice": "NOTICES TO AIRMEN.: {notams}"
           }
         },
         "closingStatement": {
@@ -1931,7 +1959,7 @@
           }
         }
       },
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "airportConditionsBeforeFreeText": false,
       "frequency": 121150000,
       "idsEndpoint": "https://api.simtraffic.net/vatis",
@@ -1946,7 +1974,7 @@
           "id": "dd9aa975-2341-4734-b4e8-48be02014050",
           "name": "NORTH | VISUALS",
           "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 36R, 36C, 36L.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -1956,7 +1984,7 @@
           "id": "7af64e79-d145-46a2-99fa-ba8fb1ff2d10",
           "name": "NORTH | ILS",
           "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 36R, 36C, 36L.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -1966,7 +1994,7 @@
           "id": "ee2c83d5-118e-4402-ac74-858a66a8f70c",
           "name": "SOUTH | VISUALS",
           "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 18R, 18C, 18L.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -1976,7 +2004,7 @@
           "id": "c5c4a500-1655-4fd0-9699-24d8a9ff134d",
           "name": "SOUTH | ILS",
           "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 18R, 18C, 18L.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2196,6 +2224,16 @@
           "text": "RWY 5/23 IS NOW TWY J.",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR CHARLOTTE AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "BIRD ACTIVITY IN VICINITY OF ARPT.",
+          "ordinal": 3,
+          "enabled": false
         }
       ]
     },
@@ -2280,6 +2318,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -4025,6 +4069,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -4105,6 +4155,22 @@
             "voice": "ALTIMETER {altimeter}"
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [],
           "template": {
@@ -4115,7 +4181,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIRMEN: {notams}"
+            "voice": "NOTICES TO AIRMEN.: {notams}"
           }
         },
         "closingStatement": {
@@ -4126,7 +4192,7 @@
           }
         }
       },
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "airportConditionsBeforeFreeText": false,
       "frequency": 132100000,
       "idsEndpoint": "https://api.simtraffic.net/vatis",
@@ -4140,8 +4206,8 @@
         {
           "id": "f6268ac0-649e-46d7-a5cf-27a66ca88761",
           "name": "NORTH",
-          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 36C, RY 36R.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN. VFR ACFT ADVISE ACFT TYPE, INITIAL HDG, PLAND ALT.",
+          "airportConditions": "SIMUL DEPS IN USE, EXPECT RWY 36C, RWY 36R.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4151,7 +4217,7 @@
           "id": "0281a4c3-722d-4720-b0e5-9b11ce554f1c",
           "name": "SOUTH",
           "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 18C, RY 18L.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN. VFR ACFT ADVISE ACFT TYPE, INITIAL HDG, PLAND ALT.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4161,7 +4227,7 @@
           "id": "54730821-d945-428b-aada-c406e4d712d2",
           "name": "NORTH IMC",
           "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 36C, RY 36R.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4171,7 +4237,7 @@
           "id": "cde6583c-a087-4987-9ce3-b0ceeece4eac",
           "name": "SOUTH IMC",
           "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 18C, RY 18L.",
-          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS. BIRD ACTIVITY VICINITY ARPT. READ BACK ALL HOLD SHORT INSTRUCTIONS WITH CALLSIGN.",
+          "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4373,8 +4439,18 @@
           "enabled": false
         },
         {
-          "text": "PUSH AND START AT OWN RISK WITIN THE RAMP.",
+          "text": "RAMP IS UNCONTROLLED, DO NOT CALL FOR PUSH UNLESS PUSHING ONTO AN ACTIVE TWY.",
           "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "BIRD ACTIVITY IN VICINITY OF ARPT.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR CHARLOTTE AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 4,
           "enabled": false
         }
       ]
@@ -4460,6 +4536,12 @@
             "text": "{visibility}",
             "voice": "VISIBILITY {visibility}"
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -6205,6 +6287,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -6284,6 +6372,22 @@
             "text": "A{altimeter} ({altimeter|text})",
             "voice": "ALTIMETER {altimeter}"
           }
+        },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
         },
         "transitionLevel": {
           "values": [],
@@ -6440,6 +6544,12 @@
             "voice": "VISIBILITY {visibility}"
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -8184,6 +8294,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": true,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -8263,6 +8379,22 @@
             "text": "A{altimeter} ({altimeter|text})",
             "voice": "ALTIMETER {altimeter}"
           }
+        },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
         },
         "transitionLevel": {
           "values": [],
