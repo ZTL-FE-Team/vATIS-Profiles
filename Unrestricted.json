@@ -2,7 +2,7 @@
   "name": "Unrestricted",
   "id": "4c741d24-f76f-4b4a-8ba2-2d4f00e55ee7",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Unrestricted.json",
-  "updateSerial": 2025022008,
+  "updateSerial": 2025073100,
   "stations": [
     {
       "id": "e1164363-b6b6-461e-a888-a93ee54aed9b",
@@ -1948,7 +1948,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -2053,7 +2053,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR TRI-CITIES AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "444dda3b-d2ec-4b5a-819d-ab59dd2f99e6",
@@ -3999,7 +4005,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -5978,7 +5984,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -7986,7 +7992,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -8091,7 +8097,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR MONTGOMERY AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "8cbd9782-41cd-4b91-882e-7a38fee5396e",
@@ -10037,7 +10049,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -12068,7 +12080,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -14099,7 +14111,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -14126,59 +14138,95 @@
           "name": "VIS 23",
           "airportConditions": "VISUAL APCH RWY 23L, 23R IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "TYS TWR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "746638e5-6985-476a-a6ae-ec8ac7a0b1db",
           "name": "RNAV 23",
-          "airportConditions": "RNAV APCH RWY 23L, RWY 23R IN USE.",
+          "airportConditions": "RNAV APCH RWY 23L, 23R IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "491448e6-24d1-449a-990d-586fb5c40677",
           "name": "ILS 23",
-          "airportConditions": "ILS APCH RWY 23L, RWY 23R IN USE.",
+          "airportConditions": "SIMULTANEOUS ILS APCH RWY 23L, 23R IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "TYS TWR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "927a576c-bab4-4c90-a941-dbd441886d45",
           "name": "VIS 5",
-          "airportConditions": "VISUAL APCH RWY 5L, RWY 5R IN USE.",
+          "airportConditions": "VISUAL APCH RWY 5L, 5R IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "TYS TWR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "8d0fed3e-bf3c-45ae-939b-432eb72e9afe",
           "name": "RNAV 5",
-          "airportConditions": "RNAV APCH RWY 5L, RWY 5R IN USE.",
+          "airportConditions": "RNAV APCH RWY 5L, 5R IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "TYS TWR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "81db5963-28b3-447a-8e3f-66e1d5fd0483",
           "name": "ILS 5",
-          "airportConditions": "ILS APCH RWY 5L, RWY 5R IN USE.",
+          "airportConditions": "SIMULTANEOUS ILS APCH RWY 5L, 5R IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "TYS TWR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -16182,7 +16230,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -18161,7 +18209,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -20140,7 +20188,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -20225,7 +20273,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR GREENVILLE AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "822961e5-00bc-42ec-94dd-8eb2ca2c3831",
@@ -22171,7 +22225,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -24232,7 +24286,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -26273,7 +26327,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -26298,7 +26352,7 @@
         {
           "id": "7c67849a-6ee5-48c9-96e1-fe4e9f7eea0b",
           "name": "VIS 23",
-          "airportConditions": "VIS APCH RWY 23R, RWY 23L IN USE.",
+          "airportConditions": "VIS APCH RWY 23R, 23L IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26308,7 +26362,7 @@
         {
           "id": "7a442b96-ebc4-4b6a-ba75-54644fcab8b1",
           "name": "ILS 23",
-          "airportConditions": "ILS APCH RWY 23R, 23L IN USE.",
+          "airportConditions": "SIMULTANEOUS ILS APCH RWY 23R, 23L IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -26328,7 +26382,7 @@
         {
           "id": "58f936a7-671f-45c1-8c0b-3d01488413f9",
           "name": "ILS 5",
-          "airportConditions": "ILS APCH RWY 5R, 5L IN USE.",
+          "airportConditions": "SIMULTANEOUS ILS APCH RWY 5R, 5L IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -28365,7 +28419,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -30376,7 +30430,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -30469,7 +30523,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR COLUMBUS AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "e2cbfaa7-fb1b-4339-bd5f-3d63a52b8f20",
@@ -32415,7 +32475,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -34401,7 +34461,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -34506,7 +34566,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR CHATTANOOGA AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "45f18503-1d33-4412-9d21-ec35ee43a9e3",
@@ -36452,7 +36518,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -36557,7 +36623,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "HAZARDOUS WEATHER INFORMATION FOR AUGUSTA AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "33cabdd0-dcff-414b-819e-7386692ba5d3",
@@ -38503,7 +38575,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -40482,7 +40554,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -42559,7 +42631,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -44546,7 +44618,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -44703,7 +44775,7 @@
       "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
-          "text": "LAHSO IN EFCT",
+          "text": "LAHSO OPERATIONS IN EFCT, ADVISE IF UNABLE LAHSO.",
           "ordinal": 1,
           "enabled": false
         },
@@ -44723,7 +44795,7 @@
           "enabled": false
         },
         {
-          "text": "HAZARDOUS WEATHER INFORMATION FOR BIRMINGHAM AVAILABLE FROM FLIGHT SERVICE FREQUENCIES",
+          "text": "HAZARDOUS WEATHER INFORMATION FOR BIRMINGHAM AREA AVAILABLE FROM FLIGHT SERVICE FREQUENCIES",
           "ordinal": 5,
           "enabled": false
         },
