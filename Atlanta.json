@@ -1,8 +1,8 @@
 {
   "name": "Atlanta",
-  "id": "1dc7f315-dab0-45c5-988a-dd389017e6b1",
+  "id": "5b725317-f3da-4495-a4e3-cfd004969ec5",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
-  "updateSerial": 2025010202,
+  "updateSerial": 2025073100,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
@@ -1948,7 +1948,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN.: {notams}"
           }
         },
         "closingStatement": {
@@ -1959,7 +1959,7 @@
           }
         }
       },
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "airportConditionsBeforeFreeText": false,
       "frequency": 119650000,
       "idsEndpoint": "",
@@ -1975,9 +1975,15 @@
           "name": "WEST | VIS | DUALS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 26R, VISUAL APPROACH RWY 27L.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -1985,9 +1991,15 @@
           "name": "WEST | ILS | DUALS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, ILS APPROACH RWY 27L.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -1995,9 +2007,15 @@
           "name": "EAST | VIS | DUALS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 8L, VISUAL APPROACH RWY 9R.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2005,9 +2023,15 @@
           "name": "EAST | ILS | DUALS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, ILS APPROACH RWY 9R.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2015,9 +2039,15 @@
           "name": "WEST | ILS-VIS | DUALS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, VISUAL APPROACH RWY 27L.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2025,9 +2055,15 @@
           "name": "EAST | ILS-VIS | DUALS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, VISUAL APPROACH RWY 9R.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2035,9 +2071,15 @@
           "name": "WEST | VIS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 26R, VISUAL APPROACH RWY 27L, VISUAL APPROACH RWY 28.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2045,9 +2087,15 @@
           "name": "WEST | ILS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, ILS APPROACH RWY 27L, ILS APPROACH RWY 28.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2055,9 +2103,15 @@
           "name": "EAST | VIS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 8L, VISUAL APPROACH RWY 9R, VISUAL APPROACH RWY 10.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2065,9 +2119,15 @@
           "name": "EAST | ILS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, ILS APPROACH RWY 9R, ILS APPROACH RWY 10.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2075,9 +2135,15 @@
           "name": "WEST | ILS-ILS-VIS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, ILS APPROACH RWY 27L, VISUAL APPROACH RWY 28.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2085,9 +2151,15 @@
           "name": "WEST | VIS-ILS-VIS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 26R, ILS APPROACH RWY 27L, VISUAL APPROACH RWY 28.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2095,9 +2167,15 @@
           "name": "EAST | ILS-ILS-VIS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, ILS APPROACH RWY 9R, VISUAL APPROACH RWY 10.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2105,17 +2183,29 @@
           "name": "EAST | VIS-ILS-VIS | TRIPS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 8L, ILS APPROACH RWY 9R, VISUAL APPROACH RWY 10.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "d3d9a2af-06df-4646-a15f-1bc7c88ef3f1",
           "name": "FREE TEXT",
-          "template": "ATL ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -2338,7 +2428,7 @@
         {
           "variableName": "AIRMEN",
           "text": "AIRMEN",
-          "voice": "AIR MISSIONS"
+          "voice": "AIRMEN"
         },
         {
           "variableName": "ADVS_YOU_HAVE_INFO",
@@ -2386,6 +2476,16 @@
         {
           "text": "PREDEPARTURE CLRNC DOES NOT REQUIRE READBACK",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "ACFT LANDING RWY 9R, 27L, RWY 10, 28 ADVISE TWR IF SCENERY INCLUDES TWY W.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "PATTERN WORK, PRACTICE INSTRUMENT APPROACHES NOT PERMITTED.",
+          "ordinal": 9,
           "enabled": false
         }
       ]
@@ -4334,7 +4434,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN.: {notams}"
           }
         },
         "closingStatement": {
@@ -4345,7 +4445,7 @@
           }
         }
       },
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "airportConditionsBeforeFreeText": false,
       "frequency": 125550000,
       "idsEndpoint": "",
@@ -4361,9 +4461,15 @@
           "name": "WEST | ROTG",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 26L, 27R. XPECT RNAV OFF THE GROUND DEPTG RWY 26L, XPECT RNAV OFF THE GROUND DEPTG RWY 27R. RWY 27R DEPS TWY W OPERATIONS IN EFFECT. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4371,9 +4477,15 @@
           "name": "EAST | ROTG",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L. XPECT RNAV OFF THE GROUND DEPTG RWY 8R, XPECT RNAV OFF THE GROUND DEPTG RWY 9L. RWY 9L DEPS, XPECT INTERSECTION DEPARTURE FROM TWY M2. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4381,9 +4493,15 @@
           "name": "EAST | ROTG | NO M2",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L. XPECT RNAV OFF THE GROUND DEPTG RWY 8R, XPECT RNAV OFF THE GROUND DEPTG RWY 9L. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4391,9 +4509,15 @@
           "name": "WEST | HEADINGS",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 26L, 27R. XPECT INITIAL HEADING DEPTG RWY 26L, XPECT INITIAL HEADING DEPTG RWY 27R. RWY 27R DEPS TWY W OPERATIONS IN EFFECT. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4401,9 +4525,15 @@
           "name": "EAST | HEADINGS",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L. XPECT INITIAL HEADING DEPTG RWY 8R, XPECT INITIAL HEADING DEPTG RWY 9L. RWY 9L DEPS, XPECT INTERSECTION DEPARTURE FROM TWY M2. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4411,9 +4541,15 @@
           "name": "EAST | HEADINGS | NO M2",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L. XPECT INITIAL HEADING DEPTG RWY 8R, XPECT INITIAL HEADING DEPTG RWY 9L. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4421,9 +4557,15 @@
           "name": "WEST | ROTG FTD",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 26L, 27R, 28. XPECT RNAV OFF THE GROUND DEPTG RWY 26L, XPECT RNAV OFF THE GROUND DEPTG RWY 27R, XPECT RNAV OFF THE GROUND DEPTG RWY 28. RWY 27R DEPS TWY W OPERATIONS IN EFFECT. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4431,9 +4573,15 @@
           "name": "EAST | ROTG FTD",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L, 10. XPECT RNAV OFF THE GROUND DEPTG RWY 8R, XPECT RNAV OFF THE GROUND DEPTG RWY 9L, XPECT RNAV OFF THE GROUND DEPTG RWY 10. RWY 9L DEPS, XPECT INTERSECTION DEPARTURE FROM TWY M2. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4441,9 +4589,15 @@
           "name": "WEST | ROTG-HEADING",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 26L, 27R. XPECT RNAV OFF THE GROUND DEPTG RWY 26L, XPECT INITIAL HEADING DEPTG RWY 27R. RWY 27R DEPS TWY W OPERATIONS IN EFFECT. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4451,9 +4605,15 @@
           "name": "WEST | HEADING-ROTG",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 26L, 27R. XPECT INITIAL HEADING DEPTG RWY 26L, XPECT RNAV OFF THE GROUND DEPTG RWY 27R. RWY 27R DEPS TWY W OPERATIONS IN EFFECT. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4461,9 +4621,15 @@
           "name": "EAST | ROTG-HEADING",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L. XPECT RNAV OFF THE GROUND DEPTG RWY 8R, XPECT INITIAL HEADING DEPTG RWY 9L. RWY 9L DEPS, XPECT INTERSECTION DEPARTURE FROM TWY M2. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4471,9 +4637,15 @@
           "name": "EAST | HEADING-ROTG",
           "airportConditions": "SIMUL DEPS, DEPTG RWYS 8R, 9L. XPECT INITIAL HEADING DEPTG RWY 8R, XPECT RNAV OFF THE GROUND DEPTG RWY 9L. RWY 9L DEPS, XPECT INTERSECTION DEPARTURE FROM TWY M2. GROUND CONTROL WILL ASSIGN RUNWAY WITH TAXI INSTRUCTIONS.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "ATL_DEP_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -4481,9 +4653,15 @@
           "name": "FREE TEXT",
           "airportConditions": "",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "template": "",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -4706,7 +4884,7 @@
         {
           "variableName": "AIRMEN",
           "text": "AIRMEN",
-          "voice": "AIR MISSIONS"
+          "voice": "AIRMEN"
         },
         {
           "variableName": "ADVS_YOU_HAVE_INFO",
@@ -4752,13 +4930,23 @@
           "enabled": false
         },
         {
-          "text": "THE RAMP IS NOT CONTROLLED",
+          "text": "THE RAMP IS UNCONTROLLED. DO NOT CALL FOR PUSH UNLESS PUSHING ONTO A TAXIWAY.",
           "ordinal": 6,
           "enabled": false
         },
         {
           "text": "PREDEPARTURE CLRNC DOES NOT REQUIRE READBACK",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "ACFT LANDING 9R/27L, RWY 10/28 ADVISE TWR IF SCENERY INCLUDES TWY W.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "PATTERN WORK, PRACTICE INSTRUMENT APPROACHES NOT PERMITTED.",
+          "ordinal": 9,
           "enabled": false
         }
       ]
@@ -6707,7 +6895,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -8729,7 +8917,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -10761,7 +10949,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -12792,7 +12980,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
