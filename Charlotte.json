@@ -2,7 +2,7 @@
   "name": "Charlotte",
   "id": "c3c2a33f-0576-44d1-82e9-909a595afb44",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Charlotte.json",
-  "updateSerial": 2025073100,
+  "updateSerial": 2025073101,
   "stations": [
     {
       "id": "6da7aa8b-33d2-47c0-8202-7fd9cf3f4028",
@@ -1973,7 +1973,7 @@
         {
           "id": "dd9aa975-2341-4734-b4e8-48be02014050",
           "name": "NORTH | VISUALS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 36R, 36C, 36L.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 1L, 36C, 36R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -1983,7 +1983,7 @@
         {
           "id": "7af64e79-d145-46a2-99fa-ba8fb1ff2d10",
           "name": "NORTH | ILS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 36R, 36C, 36L.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 1L, 36C, 36R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -1993,7 +1993,7 @@
         {
           "id": "ee2c83d5-118e-4402-ac74-858a66a8f70c",
           "name": "SOUTH | VISUALS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 18R, 18C, 18L.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 18L, 18C, 19R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2003,7 +2003,7 @@
         {
           "id": "c5c4a500-1655-4fd0-9699-24d8a9ff134d",
           "name": "SOUTH | ILS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 18R, 18C, 18L.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 18L, 18C, 19R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2216,6 +2216,16 @@
           "variableName": "36C",
           "text": "36C",
           "voice": "RUNWAY THREE SIX CENTER"
+        },
+        {
+          "variableName": "1L",
+          "text": "1L",
+          "voice": "ONE LEFT"
+        },
+        {
+          "variableName": "19R",
+          "text": "19R",
+          "voice": "ONE NINER RIGHT"
         }
       ],
       "airportConditionDefinitions": [],
