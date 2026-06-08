@@ -2,7 +2,7 @@
   "name": "Atlanta",
   "id": "5b725317-f3da-4495-a4e3-cfd004969ec5",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
-  "updateSerial": 2025073101,
+  "updateSerial": 2025073102,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
@@ -2471,7 +2471,7 @@
         {
           "text": "THE RAMP IS NOT CONTROLLED",
           "ordinal": 6,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "PREDEPARTURE CLRNC DOES NOT REQUIRE READBACK",
@@ -2486,21 +2486,16 @@
         {
           "text": "PATTERN WORK, PRACTICE INSTRUMENT APPROACHES NOT PERMITTED.",
           "ordinal": 9,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "NONPARTICIPATING CTP AIRCRAFT EXPECT LONG DELAYS",
+          "text": "CALL CHARTED RAMP FREQUENCY FOR PUSH",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "CALL CHARTED RAMP FREQUENCY FOR PUSH",
-          "ordinal": 11,
-          "enabled": false
-        },
-        {
           "text": "NORTH CARGO, GA RAMP, SOUTH CARGO RAMP UNCONTROLLED",
-          "ordinal": 12,
+          "ordinal": 11,
           "enabled": false
         }
       ]
@@ -4965,18 +4960,13 @@
           "enabled": false
         },
         {
-          "text": "NONPARTICIPATING CTP AIRCRAFT EXPECT LONG DELAYS",
+          "text": "CALL CHARTED RAMP FREQUENCY FOR PUSH",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "CALL CHARTED RAMP FREQUENCY FOR PUSH",
-          "ordinal": 11,
-          "enabled": false
-        },
-        {
           "text": "NORTH CARGO, GA RAMP, SOUTH CARGO RAMP UNCONTROLLED",
-          "ordinal": 12,
+          "ordinal": 11,
           "enabled": false
         }
       ]
