@@ -2,10 +2,10 @@
   "name": "Charlotte",
   "id": "c3c2a33f-0576-44d1-82e9-909a595afb44",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Charlotte.json",
-  "updateSerial": 2025073101,
+  "updateSerial": 2025073102,
   "stations": [
     {
-      "id": "6da7aa8b-33d2-47c0-8202-7fd9cf3f4028",
+      "id": "ea10b036-ce8b-4c77-bd00-50ca829619ae",
       "ordinal": 0,
       "identifier": "KCLT",
       "name": "Charlotte",
@@ -1973,7 +1973,7 @@
         {
           "id": "dd9aa975-2341-4734-b4e8-48be02014050",
           "name": "NORTH | VISUALS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 1L, 36C, 36R.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 1L, 1R, 36R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -1983,7 +1983,7 @@
         {
           "id": "7af64e79-d145-46a2-99fa-ba8fb1ff2d10",
           "name": "NORTH | ILS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 1L, 36C, 36R.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 1L, 1R, 36R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -1993,7 +1993,7 @@
         {
           "id": "ee2c83d5-118e-4402-ac74-858a66a8f70c",
           "name": "SOUTH | VISUALS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 18L, 18C, 19R.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT VIS APCH 18L, 19L, 19R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2003,7 +2003,7 @@
         {
           "id": "c5c4a500-1655-4fd0-9699-24d8a9ff134d",
           "name": "SOUTH | ILS",
-          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 18L, 18C, 19R.",
+          "airportConditions": "SIMUL APCHS IN USE, EXPECT ILS APCH 18L, 19L, 19R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT ARR INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2248,7 +2248,7 @@
       ]
     },
     {
-      "id": "73842b83-f823-4ccf-b36f-f38b5f9edc9a",
+      "id": "7f4cebd4-d793-436d-8ed6-44a52d4fa177",
       "ordinal": 0,
       "identifier": "KCLT",
       "name": "Charlotte",
@@ -4216,7 +4216,7 @@
         {
           "id": "f6268ac0-649e-46d7-a5cf-27a66ca88761",
           "name": "NORTH",
-          "airportConditions": "SIMUL DEPS IN USE, EXPECT RWY 36C, RWY 36R.",
+          "airportConditions": "SIMUL DEPS IN USE, EXPECT RWY 1R, RWY 36R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -4226,7 +4226,7 @@
         {
           "id": "0281a4c3-722d-4720-b0e5-9b11ce554f1c",
           "name": "SOUTH",
-          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 18C, RY 18L.",
+          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 19L, RY 18L.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -4236,7 +4236,7 @@
         {
           "id": "54730821-d945-428b-aada-c406e4d712d2",
           "name": "NORTH IMC",
-          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 36C, RY 36R.",
+          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 1R, RY 36R.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -4246,7 +4246,7 @@
         {
           "id": "cde6583c-a087-4987-9ce3-b0ceeece4eac",
           "name": "SOUTH IMC",
-          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 18C, RY 18L.",
+          "airportConditions": "SIMUL DEPS IN USE, EXPECT RY 19L, RY 18L.",
           "notams": "TRANSPONDERS REQUIRED TO BE ON WHILE OPERATING ON RWYS AND TWYS.",
           "template": "@CLT DEP INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
