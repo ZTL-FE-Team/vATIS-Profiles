@@ -2,7 +2,7 @@
   "name": "Atlanta",
   "id": "5b725317-f3da-4495-a4e3-cfd004969ec5",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
-  "updateSerial": 2025073102,
+  "updateSerial": 2025073103,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
@@ -1971,104 +1971,8 @@
       },
       "presets": [
         {
-          "id": "e172b294-456a-4063-b950-a87bb2433670",
-          "name": "WEST | VIS | DUALS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 26R, VISUAL APPROACH RWY 27L.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "00df4d2e-6e98-4a65-a9d1-bfe9dd243071",
-          "name": "WEST | ILS | DUALS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, ILS APPROACH RWY 27L.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "53790218-37a1-412d-bc87-959317ed51f6",
-          "name": "EAST | VIS | DUALS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 8L, VISUAL APPROACH RWY 9R.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "850da47f-0163-45d7-93a2-7dede89d3e59",
-          "name": "EAST | ILS | DUALS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, ILS APPROACH RWY 9R.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "1da605e8-6770-472e-87a0-685d9a25b485",
-          "name": "WEST | ILS-VIS | DUALS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, VISUAL APPROACH RWY 27L.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "56bc3984-d813-4676-bfb7-1c6bfaf1d617",
-          "name": "EAST | ILS-VIS | DUALS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, VISUAL APPROACH RWY 9R.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "1e49d8d9-2f42-4a99-a9c3-18c3958daf0e",
-          "name": "WEST | VIS | TRIPS",
+          "name": "WEST | VIS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 26R, VISUAL APPROACH RWY 27L, VISUAL APPROACH RWY 28.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
           "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -2084,7 +1988,7 @@
         },
         {
           "id": "89700fc4-6c58-474c-b68c-4c9e9002cf70",
-          "name": "WEST | ILS | TRIPS",
+          "name": "WEST | ILS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, ILS APPROACH RWY 27L, ILS APPROACH RWY 28.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
           "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -2100,7 +2004,7 @@
         },
         {
           "id": "2f15c0b2-f851-4e34-967b-aabc29460c10",
-          "name": "EAST | VIS | TRIPS",
+          "name": "EAST | VIS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 8L, VISUAL APPROACH RWY 9R, VISUAL APPROACH RWY 10.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
           "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -2116,72 +2020,8 @@
         },
         {
           "id": "e8a17d91-724d-4cdc-998c-978e03e1ffac",
-          "name": "EAST | ILS | TRIPS",
+          "name": "EAST | ILS",
           "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, ILS APPROACH RWY 9R, ILS APPROACH RWY 10.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "36cde45c-a09e-4a35-94d1-cccbc68cfc70",
-          "name": "WEST | ILS-ILS-VIS | TRIPS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 26R, ILS APPROACH RWY 27L, VISUAL APPROACH RWY 28.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "3cc10ace-c371-4aad-9e56-b4d9b4d6024c",
-          "name": "WEST | VIS-ILS-VIS | TRIPS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 26R, ILS APPROACH RWY 27L, VISUAL APPROACH RWY 28.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "53c55b2a-ba41-48bf-934b-af89aa8e31d3",
-          "name": "EAST | ILS-ILS-VIS | TRIPS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, ILS APPROACH RWY 8L, ILS APPROACH RWY 9R, VISUAL APPROACH RWY 10.",
-          "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
-          "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "86be1552-a12b-4edd-8e05-4f83a1dd051a",
-          "name": "EAST | VIS-ILS-VIS | TRIPS",
-          "airportConditions": "SIMUL APCHS ARE IN PROGRESS, VISUAL APPROACH RWY 8L, ILS APPROACH RWY 9R, VISUAL APPROACH RWY 10.",
           "notams": "OPERATE TRANSPONDER WITH MODE C ON ALL RAMPS, TWYS, AND RWYS.",
           "template": "ATL_ARR_INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -4942,7 +4782,7 @@
         {
           "text": "THE RAMP IS UNCONTROLLED. DO NOT CALL FOR PUSH UNLESS PUSHING ONTO A TAXIWAY.",
           "ordinal": 6,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "PREDEPARTURE CLRNC DOES NOT REQUIRE READBACK",
@@ -8992,7 +8832,7 @@
         {
           "id": "9749acf8-9823-4853-8531-cb44b22c5ea6",
           "name": "EAST / ILS",
-          "airportConditions": "ILS RUNWAY 9 APPROACH IN USE.",
+          "airportConditions": "ILS RUNWAY 27 APPROACH IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
