@@ -2,7 +2,7 @@
   "name": "Atlanta",
   "id": "5b725317-f3da-4495-a4e3-cfd004969ec5",
   "updateUrl": "https://raw.githubusercontent.com/ZTL-FE-Team/vATIS-Profiles/refs/heads/main/Atlanta.json",
-  "updateSerial": 2025073103,
+  "updateSerial": 2025073104,
   "stations": [
     {
       "id": "7f8767c9-3f21-46c1-97c5-08253dc6ad87",
@@ -6780,7 +6780,7 @@
         {
           "id": "ffc57536-0f45-4c99-9b71-b59fa7334a47",
           "name": "8 - VISUAL",
-          "airportConditions": "VIS APCH RWY 8 IN USE. RWY 14, 32 AVBL UPON REQUEST.",
+          "airportConditions": "VIS APCH RWY 8 IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -6800,7 +6800,7 @@
         {
           "id": "a0b59a17-63fb-4df1-b7fd-c56e839deb1c",
           "name": "26 - VISUAL",
-          "airportConditions": "VIS APCH RWY 26 IN USE. RWY 32, 14 AVBL UPON REQUEST.",
+          "airportConditions": "VIS APCH RWY 26 IN USE.",
           "notams": "READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
